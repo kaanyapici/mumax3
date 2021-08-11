@@ -6,4 +6,37 @@ Aex   = 3.65e-12;
 anisU   = vector(0, 0, 1);
 Ku1     = 1e3;
 tableautosave(10e-12);
+Relax();
+Run(1e-9);
+B_ext = vector(0,0,2.2);
 Run(15e-9);
+B_ext = vector(0,0,0);
+Run(2e-9);
+B_ext = vector(0,0,2.2);
+Run(2e-9);
+B_ext = vector(0,0,0);
+Run(2e-9);
+B_ext = vector(0,0,2.2);
+Run(2e-9);
+B_ext = vector(0,0,0);
+Run(2e-9);
+B_ext = vector(0,0,2.2);
+Run(2e-9);
+B_ext = vector(0,0,0);
+Run(2e-9);
+B_ext = vector(0,0,2.2);
+Run(2e-9);
+B_ext = vector(0,0,0);
+Run(2e-9);
+B_ext = vector(0,0,2.2);
+Run(2e-9);
+B_ext = vector(0,0,0);
+Run(2e-9);
+B_ext = vector(0,0,2.2);
+Run(2e-9);
+B_ext = vector(0,0,0);
+Run(2e-9);
+
+
+
+
