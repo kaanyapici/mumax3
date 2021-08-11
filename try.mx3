@@ -1,11 +1,9 @@
 SetGridsize(20, 100, 10);
 SetCellsize(1e-9, 1e-9, 1e-9);
-alpha = 0.1;
+alpha = 1e-4;
 Msat  = 140e3;
 Aex   = 3.65e-12;
 anisU   = vector(0, 0, 1);
-Ku1     = 1e6;
+Ku1     = 1e3;
 tableautosave(10e-12);
 Run(15e-9);
-
-B_ext
